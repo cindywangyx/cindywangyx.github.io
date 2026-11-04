@@ -1,0 +1,56 @@
+---
+title: "Resume"
+---
+
+## Education
+
+**Columbia University Mailman School of Public Health**
+
+M.S. in Biostatistics
+
+**New York University College of Arts and Science**
+
+B.A. in Economics and Environmental Studies
+
+## Professional Experience
+
+### M&A Intern | Deloitte
+
+- Supported six M&A valuation and advisory projects across industries including industrial equipment, consumer goods, software, skincare, and chemicals.
+- Conducted discounted cash flow (DCF) valuations, including financial forecasting, WACC estimation, and terminal value calculations to assess enterprise value.
+- Performed comparable company analysis using EBITDA multiples and sensitivity analysis to develop valuation ranges under different financial assumptions.
+- Conducted industry research, financial benchmarking, and potential buyer screening to support transaction analysis and investment decisions.
+
+### Data Analyst Intern | Dajia Insurance Group
+
+- Analyzed over 500,000 customer risk profiles using SQL to identify risk segments and support underwriting recommendations.
+- Evaluated customer demographic and medical data to improve risk assessment, contributing to a 1.3% improvement in portfolio performance.
+- Supported acquisition due diligence using Bloomberg and Excel to analyze financial performance and valuation metrics.
+
+## Research Experience
+
+### AI Adoption and Corporate Financing
+
+
+- Analyzed over 10,000 firm-level observations from Chinese A-share listed companies, using financial data from CSMAR and corporate annual reports covering 2011–2023.
+- Constructed an AI adoption index using annual report text analysis and applied firm and year fixed-effects regression models in Stata to examine the relationship between AI adoption and supply chain financing.
+- Conducted robustness checks and heterogeneity analysis across firm sizes to evaluate the consistency of empirical findings.
+- Found a positive association between AI adoption and supply chain finance, with stronger relationships among medium-sized and large firms than among smaller firms.
+- Publication: [View Published Research Paper](https://aemps.ewapub.com/article/view/38240)
+
+### CMIP6 Climate Projections for Southeast Asia
+
+- Processed CMIP6 climate simulations and ERA5 reanalysis data using Python to study temperature and precipitation patterns across 10 Southeast Asian cities.
+- Evaluated historical climate simulations from 2005 to 2014 and analyzed future projections under the SSP5-8.5 scenario.
+- Identified projected increases in extreme temperatures and examined potential heat and flood risks in Southeast Asia.
+- Preprint: EarthArxiv: https://eartharxiv.org/repository/view/6506/
+
+## Technical Skills
+
+**Programming:** R, Python, SQL, Stata
+
+**Data Analysis:** Data Wrangling, EDA, A/B Testing, Statistical Modeling
+
+**Machine Learning:** Logistic Regression, Random Forest, Gradient Boosting, K-Means
+
+**Data Visualization:** Looker, Power BI

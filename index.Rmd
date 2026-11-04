@@ -1,0 +1,33 @@
+---
+title: "Home"
+---
+
+# Hi, I'm Cindy Wang!
+
+I am currently pursuing an M.S. in Biostatistics at Columbia University's Mailman School of Public Health.
+
+I am interested in data science, statistical analysis, and using data to understand real-world problems.
+
+## About Me
+
+My academic background and professional experience have helped me develop skills in data analysis, statistical modeling, and data visualization. More than that, I have been a clarinet player for over 14 years.
+
+I have worked with R, Python, SQL, and other analytical tools.
+
+## About This Website
+
+This website includes information about my academic background, professional experience, and data science projects.
+
+## Instacart Shopping Dashboard
+
+I created an interactive dashboard to explore online grocery shopping patterns using the Instacart dataset.
+
+The dashboard includes three visualizations:
+
+- A bar chart comparing purchased item counts across departments.
+- A line chart showing reorder rates by hour of day.
+- A box plot comparing add-to-cart positions across four departments, using a random sample of 500 items per department.
+
+The produce department has the highest purchased item count among the departments displayed. Reorder rates are also relatively high during the early morning hours.
+
+[Explore My Interactive Dashboard](dashboard.html)

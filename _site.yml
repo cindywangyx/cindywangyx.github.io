@@ -1,0 +1,20 @@
+name: "Cindy Wang"
+output_dir: "."
+navbar:
+  title: "Cindy Wang"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - text: "Email"
+      href: "mailto:yw4817@cumc.columbia.edu"
+    - text: "LinkedIn"
+      href: "https://www.linkedin.com/in/cindy-wang-948b05264"
+    - text: "GitHub"
+      href: "https://github.com/cindywangyx"
+output:
+  html_document:
+    theme: cerulean

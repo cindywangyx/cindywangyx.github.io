@@ -1,0 +1,82 @@
+---
+title: "Instacart Shopping Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("instacart")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Products by Department
+```{r bar_plot}
+instacart |>
+  count(department) |>
+  arrange(desc(n)) |>
+  head(10) |>
+  plot_ly(
+    x = ~department,
+    y = ~n,
+    type = "bar"
+  ) |>
+  layout(
+    xaxis = list(title = "Department", tickangle = -45),
+    yaxis = list(title = "Number of Purchased Items")
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Reorder Rate by Hour
+```{r line_plot}
+instacart |>
+  group_by(order_hour_of_day) |>
+  summarize(
+    reorder_rate = mean(reordered, na.rm = TRUE) * 100
+  ) |>
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~reorder_rate,
+    type = "scatter",
+    mode = "lines+markers"
+  ) |>
+  layout(
+    xaxis = list(title = "Hour of Day"),
+    yaxis = list(title = "Reordered Items (%)")
+  )
+```
+
+
+### Add-to-Cart Position by Department
+```{r box_plot}
+set.seed(123)
+
+instacart |>
+  filter(
+    department %in% c("produce", "dairy eggs", "snacks", "beverages")
+  ) |>
+  group_by(department) |>
+  sample_n(500) |>
+  ungroup() |>
+  plot_ly(
+    x = ~department,
+    y = ~add_to_cart_order,
+    type = "box",
+    boxpoints = FALSE
+  ) |>
+  layout(
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Add-to-Cart Position")
+  )
+```
+
